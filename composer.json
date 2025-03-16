@@ -1,0 +1,14 @@
+{
+    "name": "duncansamson/fitbitchii",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DuncanSamson",
+            "email": "duncancsamson@gmail.com"
+        }
+    ],
+    "require": {
+        "tightenco/jigsaw": "^1.7"
+    }
+}
