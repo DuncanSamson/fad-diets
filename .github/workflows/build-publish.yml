@@ -1,33 +1,59 @@
-name: Deploy
+name: Deploy Jigsaw to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # Change this if your default branch is different
+
+permissions:
+  contents: read  # Required for checking out the repository
+  pages: write    # Needed to deploy to GitHub Pages
+  id-token: write # Required for OIDC authentication
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
         with:
-          node-version: '22.x'
-      - name: Install NPM Dependencies
-        run: npm install
-      - name: Install Composer Dependencies
-        run: composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
-      - name: Build website
-        run: npm run prod
-      - name: Prepare production
+          php-version: '8.2' # Adjust PHP version as needed
+          tools: composer
+
+      - name: Install Jigsaw dependencies
+        run: composer install --no-dev --prefer-dist --no-progress --no-interaction
+
+      - name: Install Node.js dependencies
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install NPM dependencies and build assets
         run: |
-          git config --global user.email "duncancsamson@gamil.com"
-          git config --global user.name "Duncan Samson"
-          git add build_production -f && git commit -m "Build for deploy"
-      - name: Deploy website
+          npm ci
+          npm run prod # Ensure this script builds the assets correctly
+
+      - name: Build Jigsaw site
         run: |
-          git remote set-url origin https://${{secrets.DEPLOY_KEY}}@github.com/DuncanSamson/fitbitchii.git
-          git subtree split --prefix build_production -b gh-pages
-          git push -f origin gh-pages:gh-pages
+          vendor/bin/jigsaw build production
+
+      - name: Upload artifact for deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build_production
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
