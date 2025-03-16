@@ -1,35 +1,33 @@
-name: Build & Publish
+ame: Deploy
 
 on:
   push:
     branches:
       - main
-  schedule:
-    - cron: "0 2 * * 1-5"
 
 jobs:
-  build-site:
+  build:
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Install Composer Dependencies
-        run: composer install --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
       - name: Install NPM Dependencies
         run: npm install
-      - name: Build Site
+      - name: Install Composer Dependencies
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
+      - name: Build website
         run: npm run prod
-      - name: Stage Files
-        run: git add -f build_production
-      - name: publish
-        run: git subtree push --prefix build_production origin gh-pages
-
-#      - name: Commit files
-#        run: |
-#          git config --local user.email "actions@github.com"
-#          git config --local user.name "GitHub Actions"
-#          git commit -m "Build for deploy"
-#      - name: Publish
-#        run: |
-#          git subtree split --prefix build_production -b master
-#          git push -f origin master:master
-#          git branch -D master
+      - name: Prepare production
+        run: |
+          git config --global user.email "duncancsamson@gamil.com"
+          git config --global user.name "Duncan Samson"
+          git add build_production -f && git commit -m "Build for deploy"
+      - name: Deploy website
+        run: |
+          git remote set-url origin https://${{secrets.DEPLOY_KEY}}@github.com/DuncanSamson/fitbitchii.git
+          git subtree split --prefix build_production -b gh-pages
+          git push -f origin gh-pages:gh-pages
