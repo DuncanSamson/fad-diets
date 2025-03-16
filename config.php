@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
+    'title' => 'Fitbitchii',
     'description' => 'Website description.',
     'collections' => [],
 ];
