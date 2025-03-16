@@ -9,7 +9,23 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
-    <body class="text-gray-900 font-sans antialiased">
-        @yield('body')
+    <body class=" bg-emerald-100 text-emerald-950 font-sans antialiased">
+        <nav class="bg-emerald-500 shadow-md shadow-emerald-600">
+            <ul class="flex justify-center">
+
+                <x-nav-items href="/">Home</x-nav-items>
+                <x-nav-items href="/fad-diet">Fad Diets</x-nav-items>
+                <x-nav-items href="/scran">What Is In your Scran</x-nav-items>
+                <x-nav-items href="/game">Game</x-nav-items>
+            </ul>
+        </nav>
+        <main class="mx-96 min-h-96">
+            @yield('content')
+        </main>
+
+
+        <x-footer>
+
+        </x-footer>
     </body>
 </html>
