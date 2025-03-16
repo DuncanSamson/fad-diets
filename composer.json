@@ -10,5 +10,10 @@
     ],
     "require": {
         "tightenco/jigsaw": "^1.7"
+    },
+    "scripts": {
+        "build": "vendor/bin/jigsaw build",
+        "serve": "vendor/bin/jigsaw serve",
+        "serve:prod": "vendor/bin/jigsaw serve production --port=8080"
     }
 }
