@@ -10,6 +10,7 @@ title: Home
     <p>wewrdtfyuihgfcxdrsetyuighjcfxdsaew56475rytughfkdxhsyw45364r5ytughfkgjdfhsy</p>
     <p>meh</p>
     <h2>Hello world</h2>
+    <p>{[$page['baseUrl']}}</p>
 </div>
 @endsection
 
