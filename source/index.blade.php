@@ -7,10 +7,6 @@ title: Home
 @section('content')
 <div class="p-8">
     <h1 class="text-3xl font-bold">Hello world!</h1>
-    <p>wewrdtfyuihgfcxdrsetyuighjcfxdsaew56475rytughfkdxhsyw45364r5ytughfkgjdfhsy</p>
-    <p>meh</p>
-    <h2>Hello world</h2>
-    <p>{[$page['baseUrl']}}</p>
 </div>
 @endsection
 
