@@ -1,7 +1,6 @@
 ---
 title: Home
 ---
-
 @extends('_layouts.main')
 
 @section('content')
