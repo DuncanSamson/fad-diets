@@ -7,6 +7,7 @@ title: Home
 @section('content')
 <div class="p-8">
     <h1 class="text-3xl font-bold">Hello world!</h1>
+    <p>dgwegwegewdgwe</p>
 </div>
 @endsection
 
