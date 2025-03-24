@@ -21,7 +21,7 @@
                 <x-nav-items href="/game">Game</x-nav-items>
             </ul>
         </nav>
-        <main class="mx-96 min-h-96">
+        <main class="min-h-96">
             @yield('content')
         </main>
 
