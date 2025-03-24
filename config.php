@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Fitbitchii',
+    'title' => 'Fad-Diets',
     'description' => 'Website description.',
     'collections' => [],
 ];

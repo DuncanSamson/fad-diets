@@ -2,5 +2,5 @@
 
 return [
     'production' => true,
-    'baseUrl' => '/fitbitchii',
+    'baseUrl' => '/Fad-Diets',
 ];
