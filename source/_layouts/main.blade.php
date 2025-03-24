@@ -7,7 +7,9 @@
         <meta name="description" content="{{ $page->description }}">
         <title>{{ $page->title }}</title>
         <link rel="stylesheet" href="/fad-diets{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="/fad-diets{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
     <body class=" bg-emerald-100 text-emerald-950 font-sans antialiased">
         <nav class="bg-emerald-500 shadow-md shadow-emerald-600">
