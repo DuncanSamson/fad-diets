@@ -18,6 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -40,6 +41,9 @@ jobs:
       - name: Build Jigsaw site
         run: |
           vendor/bin/jigsaw build production
+
+      - name: create CNAME file
+        run: echo "faddiets.uk" > build_production/CNAME
 
       - name: Upload artifact for deployment
         uses: actions/upload-pages-artifact@v3
