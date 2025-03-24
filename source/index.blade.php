@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Welcome to Fad Diet
 ---
 @extends('_layouts.main')
 
