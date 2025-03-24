@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Fad-Diets',
+    'title' => 'fad-diets',
     'description' => 'Website description.',
     'collections' => [],
 ];
