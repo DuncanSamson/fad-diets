@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
-    <body class=" bg-emerald-100 text-emerald-950 font-sans antialiased">
+    <body class=" bg-stone-50 text-emerald-950 font-sans antialiased">
         <nav class="bg-emerald-500 shadow-md shadow-emerald-600">
             <ul class="flex justify-center">
 

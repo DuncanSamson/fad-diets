@@ -2,24 +2,28 @@
 title: Welcome to Fad Diet
 ---
 @extends('_layouts.main')
-
 @section('content')
-    <x-blog-section>
+
+    <x-wellcome-text wellcome="test" >
+
+    </x-wellcome-text>
 
 
-        <x-blog-article>
-            <x-blog-header>
-                <x-time datetime="2025-03-24">24/03/2025</x-time>
-                <x-category url="/cat/marketing">Marketing</x-category>
-            </x-blog-header>
-            <x-blog-content url="/blog/9845" blogtitle="Boost your conversion rate">
-                Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo
-                necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.
-            </x-blog-content>
-            <x-author fullname="Michael Foster" jobtitle="CTO"></x-author>
-        </x-blog-article>
-    </x-blog-section>
+    <x-team>
+        <x-member fullname="Connor McCaig" image="/assets/images/100_0045.JPG" jobtitle="Game Developer"
+                  individualBlurb="Hi, I'm Connor, a proud student at New College Lanarkshire.
+                  I am the lead Game developer behind our game's functionality, bringing its mechanics to life,
+                  and the artistic genius responsible for the sprite artwork that gives it its unique visual charm."></x-member>
 
+        <x-member fullname="Jonathan Howie" image="/assets/images/100_0044.JPG" jobtitle="Lead Research"
+                  individualBlurb="Hello, my name is Jonathan, and I’m the lead researcher for this site. In my role,
+                  I am responsible for identifying and sourcing high-quality, relevant content that aligns with the goals of the site.
+                   I focus on ensuring that the information we present is both accurate and engaging for our target audience.. "></x-member>
+
+        <x-member fullname="Duncan Samson" image="/assets/images/100_0039.JPG" jobtitle="Web Developer"
+                  individualBlurb="Hi, I’m Duncan, and I’m currently a student at New College Lanarkshire. My responsibilities include overseeing the web development process,
+                  ensuring everything runs smoothly, and coordinating with the team to deliver the best possible user experience.
+                  enhancing my skills in web development while contributing to the success of this project."></x-member>
+    </x-team>
 @endsection
-
 
