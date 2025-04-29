@@ -1,1 +1,0 @@
-<p class="flex text-center"></p>{{wellcome}}

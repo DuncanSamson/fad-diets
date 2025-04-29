@@ -4,9 +4,9 @@ title: Welcome to Fad Diet
 @extends('_layouts.main')
 @section('content')
 
-    <x-wellcome-text wellcome="test" >
+    <x-welcome-text welcome="test" >
 
-    </x-wellcome-text>
+    </x-welcome-text>
 
 
     <x-team>
