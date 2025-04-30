@@ -7,8 +7,6 @@ title: Welcome to Fad Diet
     <x-welcome-text welcome="test" >
 
     </x-welcome-text>
-
-
     <x-team>
         <x-member fullname="Connor McCaig" image="/assets/images/100_0045.JPG" jobtitle="Game Developer"
                   individualBlurb="Hi, I'm Connor, a proud student at New College Lanarkshire.

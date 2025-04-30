@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
-    <body class=" bg-stone-50 text-emerald-950 font-sans antialiased">
+    <body class="bg-emerald-800 text-emerald-50 font-sans antialiased">
         <nav class="bg-emerald-500 shadow-md shadow-emerald-600">
             <ul class="flex justify-center">
 
@@ -19,7 +19,7 @@
                 <x-nav-items href="/game">Game</x-nav-items>
             </ul>
         </nav>
-        <main class="min-h-96">
+        <main class="min-h-96 bg-stone-50 text-emerald-950 ">
             @yield('content')
         </main>
 
