@@ -1,0 +1,1 @@
+<a class="text-emerald-800 hover:text-emerald-500" href="{{$href}}">{{ $slot }}</a>

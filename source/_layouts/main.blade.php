@@ -19,7 +19,7 @@
                 <x-nav-items href="/game">Game</x-nav-items>
             </ul>
         </nav>
-        <main class="min-h-96 bg-stone-50 text-emerald-950 ">
+        <main class="min-h-96 bg-stone-50 text-emerald-950 px-14 py-16">
             @yield('content')
         </main>
 

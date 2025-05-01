@@ -1,1 +1,1 @@
-<p class="flex text-center"></p>{{$welcome}}
+<div class="text-center">{{$slot}}</div>
