@@ -7,7 +7,7 @@
         <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div class="text-center">
                 <h1 class="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Welcome</h1>
-                <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">This site was made by student of New College Lanarkshire with the aim to promote healthy a life style.</p>
+                <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">This site was made by students of New College Lanarkshire with the aim to promote a healthy life style.</p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
                     <a href="/fad-diet" class="rounded-md bg-emerald-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">Discover Fad Diets</a>
                     <a href="/about" class="text-sm/6 font-semibold text-gray-900">About Us <span aria-hidden="true">→</span></a>
