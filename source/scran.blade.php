@@ -8,7 +8,7 @@ image: fad-diets-logo-light-green.png
     <article class="max-w-3xl mx-auto px-4 py-10">
         <h1 class="text-7xl font-bold text-center mb-6 pb-3 mb-10 border-b border-b-emerald-200">What’s in Your Scran?</h1>
         <section class="text-lg mb-6 flex gap-4 pb-10 border-b border-emerald-200">
-            <img class="w-48" src="/assets/images/big-mac.jpg">
+            <img class="w-48" alt="Big Mac" src="/assets/images/big-mac.jpg">
             <div>
                 <h2 class="font-bold text-xl pb-8">Canola Oil Aka Canadian Oil Low Acid</h3>
                 <p class="text-lg mb-6">Oil that is extracted from genetically modified rapeseeds from the rapeseed plant.</p>
@@ -28,11 +28,11 @@ image: fad-diets-logo-light-green.png
                     Read More About It
                 </x-button>
             </div>
-            <img class="w-48" src="/assets/images/mars-bar.jpg">
+            <img class="w-48" alt="mars bar" src="/assets/images/mars-bar.jpg">
         </section>
         
         <section class="text-lg mb-6 flex gap-4">
-            <img class="w-48" src="/assets/images/irnbru.jpg">
+            <img class="w-48" alt="Irn bru can" src="/assets/images/irnbru.jpg">
             <div>
                 <h2 class="font-bold text-xl pb-8">Sunset Yellow FCF (E110)</h3>
                 <p class="text-lg mb-6">

@@ -1,5 +1,5 @@
 <div class="relative mt-8 flex gap-x-4">
-    <img src="{{$image}} " alt="" class="size-10 rounded-full bg-gray-50 ">
+    <img src="{{$image}} " alt="Picture of team member" class="size-10 rounded-full bg-gray-50 ">
     <div class="text-sm/6">
         <p class="font-semibold text-gray-900 text-xs">
             <a href="#">
