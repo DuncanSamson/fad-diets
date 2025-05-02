@@ -1,5 +1,7 @@
 ---
 title: Sunset Yellow
+description: A bright orange artificial dye made from petroleum, used to give foods and drinks a strong orange colour.
+image: irnbru.jpg
 ---
 @extends('_layouts.main')
 @section('content')

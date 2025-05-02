@@ -1,5 +1,7 @@
 ---
 title: Animal Based Diet
+description: This diet focuses on eating primarily animal products such as meat, eggs, and dairy, while also including fruit and honey, with extra focus on avoiding seed oils and vegetables particularl those high in Oxalates (A vegetable’s defence chemical).
+image: animal-based-diet.jpg
 ---
 @extends('_layouts.main')
 @section('content')

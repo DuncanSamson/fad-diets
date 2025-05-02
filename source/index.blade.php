@@ -1,5 +1,7 @@
 ---
 title: Welcome to Fad Diet
+description: A website to help you think more about what foods do and don't work for you.
+image: fad-diets-logo-light-green.png
 ---
 @extends('_layouts.main')
 @section('content')

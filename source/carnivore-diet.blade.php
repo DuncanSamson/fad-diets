@@ -1,5 +1,7 @@
 ---
 title: Carnivore Diet
+description: This diet excludes all plant-based foods, relying exclusively on animal products, such as meat, fish, eggs, and dairy to provide all the nutrients the body and mind requires. There are variations to the diet with some users eliminating the dairy element from the diet.
+image: Carnivore-diet.jpg
 ---
 @extends('_layouts.main')
 @section('content')

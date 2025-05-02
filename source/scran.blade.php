@@ -1,5 +1,7 @@
 ---
 title: what in your scran
+description: Do you know what is in your food and how it is effecting your body?
+image: fad-diets-logo-light-green.png
 ---
 @extends('_layouts.main')
 @section('content')

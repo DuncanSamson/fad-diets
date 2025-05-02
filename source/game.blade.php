@@ -1,5 +1,7 @@
 ---
 title: Game
+description: Try out our game!
+image: fad-diets-logo-light-green.png
 ---
 @extends("_layouts.main")
 @section("content")

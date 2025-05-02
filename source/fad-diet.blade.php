@@ -1,5 +1,7 @@
 ---
 title: Fad Diets
+description: This is all a fad diets and is to teach people how to eat better.
+image: fad-diets-logo-light-green.png
 ---
 @extends('_layouts.main')
 @section('content')
