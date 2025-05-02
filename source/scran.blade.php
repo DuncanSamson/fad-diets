@@ -9,7 +9,7 @@ title: what in your scran
             <img class="w-48" src="/assets/images/big-mac.jpg">
             <div>
                 <h3 class="font-bold text-xl pb-8">Canola Oil Aka Canadian Oil Low Acid</h3>
-                <p class="text-lg mb-6">Oil that is extracted from genetically modified rapeseeds from the rapeseed plant </p>
+                <p class="text-lg mb-6">Oil that is extracted from genetically modified rapeseeds from the rapeseed plant.</p>
                 <x-button page="/scran-canola-oil">
                     Read More About It
                 </x-button>
@@ -42,6 +42,5 @@ title: what in your scran
                 </x-button>
             </div>
         </section>
-
     </article>
 @endsection

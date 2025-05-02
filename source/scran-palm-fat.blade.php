@@ -4,7 +4,7 @@ title: Palm Fat
 @extends('_layouts.main')
 @section('content')
     <h1 class="text-7xl font-bold text-center mb-6 pb-3 mb-10 border-b border-b-emerald-200">Palm fat</h1>
-    <h3 class="text-xl pt-8 pb-2 font-bold">HOW IS IT MADE?</h3>
+    <h3 class="text-xl pt-8 pb-2 font-bold">How Is It Made?</h3>
     <p class="text-lg">Palm fruits are harvested and then steamed
         They are then pressed to remove the crude oil
         The oil is then clarified to remove impurities
@@ -13,17 +13,17 @@ title: Palm Fat
         Chemical or physical refining may follow
         The fat is then filtered and dried
         Finally, it’s packaged for use in food products </p>
-    <h3 class="text-xl pt-8 pb-2 font-bold">WHAT AFFECTS COULD IT HAVE ON YOUR BRAIN?</h3>
+    <h3 class="text-xl pt-8 pb-2 font-bold">What Affects Could It Have On Your Brain?</h3>
     <p class="text-lg">Research on high-saturated fat diets indicates that diets rich in palm fat may alter brain function, potentially
         affecting memory and learning.
-        WHAT AFFECTS COULD IT HAVE ON YOUR BODY?
+        <h3>What Affects Could It Have On Your Body?</h3>
         Some studies suggest that a high intake of palm fat can contribute to weight gain and may increase cholesterol
         levels, posing a risk to heart health over time.</p>
-    <h3 class="text-xl pt-8 pb-2 font-bold">FUN FACTS</h3>
+    <h3 class="text-xl pt-8 pb-2 font-bold">Fun Facts</h3>
     <p class="text-lg">Palm fat is a key ingredient in many processed foods like biscuits and spreads.
         Palm fat is found in approximately 50% of all supermarket products in the UK</p>
 
-    <h3 class="text-xl pt-8 pb-2 font-bold">SOURCES</h3>
+    <h3 class="text-xl pt-8 pb-2 font-bold">Sources</h3>
     <ul class="list-disc pl-8">
         <li>
             <x-link href="https://www.gov.uk/government/publications/uk-consumption-of-sustainable-palm-oil-annual-review">UK
