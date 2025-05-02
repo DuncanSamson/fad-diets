@@ -1,6 +1,6 @@
 ---
 title: lion diet
-description: The Lion Diet includes only three things: ruminant meat, salt, and water. No spices, oils, or caffeine. It’s often followed for 30–90 days before slowly reintroducing foods to test reactions. Mikhaila Peterson has documented her journey online, helping thousands try it for themselves. Mikhaila named the diet the Lion diet as it most reflected the diet of Lions who eat mostly ruminant meat.
+description: "The Lion Diet includes only three things: ruminant meat, salt, and water. No spices, oils, or caffeine. It’s often followed for 30–90 days before slowly reintroducing foods to test reactions. Mikhaila Peterson has documented her journey online, helping thousands try it for themselves. Mikhaila named the diet the Lion diet as it most reflected the diet of Lions who eat mostly ruminant meat."
 image: Lion-diet.blade.php
 ---
 @extends('_layouts.main')
