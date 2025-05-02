@@ -7,7 +7,7 @@
                 {{$fullname}}
             </a>
         </p>
-        <p class="text-gray-600 font-bold text-xl flex items-end ">{{$jobtitle}}</p>
+        <h2 class="text-gray-600 font-bold text-xl flex items-end ">{{$jobtitle}}</h2>
         <p class="text-gray-600 text-xs flex items-end ">{{$individualBlurb}}</p>
     </div>
 </div>
