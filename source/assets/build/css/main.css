@@ -545,6 +545,15 @@ video {
   height: -moz-fit-content;
   height: fit-content;
 }
+.h-24 {
+  height: 6rem;
+}
+.h-8 {
+  height: 2rem;
+}
+.h-16 {
+  height: 4rem;
+}
 .min-h-96 {
   min-height: 24rem;
 }
