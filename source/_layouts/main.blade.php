@@ -10,7 +10,7 @@
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
     <body class="bg-emerald-800 text-emerald-50 font-sans antialiased">
-        <nav class="bg-emerald-500 shadow-md shadow-emerald-600">
+        <nav class="bg-emerald-500 shadow-lg shadow-emerald-500	shadow-emerald-600 bg-gradient-to-b from-emerald-300 from-5% to-emerald-600 to-95%">
             <img alt="Logo Preview" src="/assets/images/FAD-Diets.png">
             <ul class="flex justify-center">
                 <x-nav-items href="/">Home</x-nav-items>

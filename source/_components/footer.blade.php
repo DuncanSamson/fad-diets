@@ -4,7 +4,6 @@
             <div class="flex items-center w-full gap-4">
                 <!--logo-->
                 <img alt="Logo Preview" src="/assets/images/FAD-Diets.png" width="150">
-                <div class="text-2xl  ">Fad Diets</div>
             </div>
         </div>
     </div>
