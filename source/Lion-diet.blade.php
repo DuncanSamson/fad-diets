@@ -25,7 +25,7 @@ title: lion diet
             </x-link>
         </li>
         <li>
-            <x-link href="https://liondiet.com/my-story/https://youtu.be/0ka9WBEijhk?feature=shared">liondiet.com. (2021). My Experience - The Lion Diet.
+            <x-link href="https://www.youtube.com/watch?v=0ka9WBEijhk">youtube.com. (2021). My Experience - The Lion Diet.
             </x-link>
         </li>
 

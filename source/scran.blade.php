@@ -22,7 +22,7 @@ title: what in your scran
                 <p class="text-lg mb-6">
                     Fat extracted from the fruit of the oil palm tree, used widely in processed foods and cosmetics.
                 </p>
-                <x-button page="/scran-canola-oil">
+                <x-button page="/scran-palm-fat">
                     Read More About It
                 </x-button>
             </div>
@@ -37,7 +37,7 @@ title: what in your scran
                     A bright orange artificial dye made from petroleum, used to give foods and drinks a strong orange
                     colour.
                 </p>
-                <x-button page="/scran-canola-oil">
+                <x-button page="/scran-sunset-yellow">
                     Read More About It
                 </x-button>
             </div>
