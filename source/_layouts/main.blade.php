@@ -11,8 +11,8 @@
     </head>
     <body class="bg-emerald-800 text-emerald-50 font-sans antialiased">
         <nav class="bg-emerald-500 shadow-md shadow-emerald-600">
+            <img alt="Logo Preview" src="/assets/images/FAD-Diets.png">
             <ul class="flex justify-center">
-
                 <x-nav-items href="/">Home</x-nav-items>
                 <x-nav-items href="/fad-diet">Fad Diets</x-nav-items>
                 <x-nav-items href="/scran">What Is In your Scran</x-nav-items>
