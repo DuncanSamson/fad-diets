@@ -3,10 +3,11 @@ title: Welcome to Fad Diet
 description: A website to help you think more about what foods do and don't work for you.
 image: fad-diets-logo-light-green.png
 ---
-@extends('_layouts.main')
+@extends('_layouts.home')
 @section('content')
-    <h1>Welcome to Fad Diet</h1>
+    <x-hero>
 
+    </x-hero>
     <x-team>
         <x-member fullname="Connor McCaig" image="/assets/images/100_0045.JPG" jobtitle="Game Developer"
                   individualBlurb="Hi, I'm Connor, a proud student at New College Lanarkshire.
