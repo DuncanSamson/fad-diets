@@ -20,9 +20,11 @@
             <img class="h-16" alt="Logo Preview" src="/assets/images/FAD-Diets.png">
             <ul class="flex justify-center">
                 <x-nav-items href="/">Home</x-nav-items>
+                <x-nav-items href="/about">About</x-nav-items>
                 <x-nav-items href="/fad-diet">Fad Diets</x-nav-items>
                 <x-nav-items href="/scran">What Is In your Scran</x-nav-items>
                 <x-nav-items href="/game">Game</x-nav-items>
+                <x-nav-items href="/about">About</x-nav-items>
             </ul>
         </nav>
         <main class="min-h-96 bg-stone-50 text-emerald-950 px-14 py-16">
