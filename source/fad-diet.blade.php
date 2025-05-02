@@ -4,7 +4,7 @@ title: Fad Diets
 @extends('_layouts.main')
 @section('content')
     <article class="max-w-3xl mx-auto px-4 py-10">
-        <h1 class="text-7xl font-bold text-center mb-6 pb-3 mb-10 border-b border-b-emerald-200">What’s in Your Scran?</h1>
+        <h1 class="text-7xl font-bold text-center mb-6 pb-3 mb-10 border-b border-b-emerald-200">Fad diets?</h1>
         <section class="text-lg mb-6 flex gap-4 pb-10 border-b border-emerald-200">
             <img class="w-48" src="/assets/images/animal-based-diet.jpg">
             <div>
