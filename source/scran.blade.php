@@ -10,7 +10,7 @@ image: fad-diets-logo-light-green.png
         <section class="text-lg mb-6 flex gap-4 pb-10 border-b border-emerald-200">
             <img class="w-48" alt="Big Mac" src="/assets/images/big-mac.jpg">
             <div>
-                <h2 class="font-bold text-xl pb-8">Canola Oil Aka Canadian Oil Low Acid</h3>
+                <h2 class="font-bold text-xl pb-8">Canola Oil Aka Canadian Oil Low Acid</h2>
                 <p class="text-lg mb-6">Oil that is extracted from genetically modified rapeseeds from the rapeseed plant.</p>
                 <x-button page="/scran-canola-oil">
                     Read More About It
@@ -20,7 +20,7 @@ image: fad-diets-logo-light-green.png
 
         <section class="text-lg mb-6 flex gap-4 pb-10 border-b border-emerald-200">
             <div>
-                <h2 class="font-bold text-xl pb-8">Palm Fat Aka Palm Oil Solid Fraction</h3>
+                <h2 class="font-bold text-xl pb-8">Palm Fat Aka Palm Oil Solid Fraction</h2>
                 <p class="text-lg mb-6">
                     Fat extracted from the fruit of the oil palm tree, used widely in processed foods and cosmetics.
                 </p>
@@ -34,7 +34,7 @@ image: fad-diets-logo-light-green.png
         <section class="text-lg mb-6 flex gap-4">
             <img class="w-48" alt="Irn bru can" src="/assets/images/irnbru.jpg">
             <div>
-                <h2 class="font-bold text-xl pb-8">Sunset Yellow FCF (E110)</h3>
+                <h2 class="font-bold text-xl pb-8">Sunset Yellow FCF (E110)</h2>
                 <p class="text-lg mb-6">
                     A bright orange artificial dye made from petroleum, used to give foods and drinks a strong orange
                     colour.
