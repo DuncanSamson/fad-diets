@@ -640,6 +640,12 @@ video {
   height: -moz-fit-content;
   height: fit-content;
 }
+.h-8 {
+  height: 2rem;
+}
+.h-10 {
+  height: 2.5rem;
+}
 .min-h-96 {
   min-height: 24rem;
 }
@@ -657,6 +663,15 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-1 {
+  width: 0.25rem;
+}
+.min-w-1 {
+  min-width: 0.25rem;
+}
+.min-w-2 {
+  min-width: 0.5rem;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -1051,6 +1066,10 @@ video {
   --tw-blur: blur(64px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1196,6 +1215,10 @@ video {
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:justify-end {
+    justify-content: flex-end;
   }
 
   .lg\:justify-center {

@@ -3,7 +3,7 @@
         <div class="flex flex-col gap-2 justify-center w-[35%] w-[35%]">
             <div class="flex items-center w-full gap-4">
                 <!--logo-->
-                <img alt="Logo Preview" src="/assets/images/FAD-Diets.png" width="150">
+                <img alt="Logo Preview" src="/assets/images/FAD-Diets.svg" width="150">
             </div>
         </div>
     </div>
