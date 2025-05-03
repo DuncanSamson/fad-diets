@@ -2,6 +2,7 @@
 title: Welcome to Fad Diet
 description: This is the about page for Fad Diet.
 image: fad-diets-logo-light-green.png
+author: Duncan Samson
 ---
 @extends('_layouts.main')
 @section('content')
