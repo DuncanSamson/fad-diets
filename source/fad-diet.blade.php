@@ -39,7 +39,7 @@ image: fad-diets-logo-light-green.png
                         Read More About It
                     </x-button>
             </div>
-            <div class="flex justify-center md:justify-end flex-auto md:flex-1">
+            <div class="flex justify-center md:justify-end flex-auto md:flex-1 pt-4 md:pt-0">
             <img class="w-48" alt="Picture of a steak cooking" src="/assets/images/Carnivore-diet.jpg">
             </div>
         </section>
