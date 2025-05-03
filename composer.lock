@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccd5a003325cd91e36a0380f12914ed2",
+    "content-hash": "1e28d602d634b9a5147cbb9a8c2beb52",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -4181,20 +4181,20 @@
         },
         {
             "name": "tightenco/jigsaw",
-            "version": "v1.7.5",
+            "version": "v1.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tighten/jigsaw.git",
-                "reference": "6bdbdb5ac273b8837f0fda8b4f0129fdbb1c4753"
+                "reference": "4ca1777989031ee628ad03fee3e44686e130a0ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tighten/jigsaw/zipball/6bdbdb5ac273b8837f0fda8b4f0129fdbb1c4753",
-                "reference": "6bdbdb5ac273b8837f0fda8b4f0129fdbb1c4753",
+                "url": "https://api.github.com/repos/tighten/jigsaw/zipball/4ca1777989031ee628ad03fee3e44686e130a0ee",
+                "reference": "4ca1777989031ee628ad03fee3e44686e130a0ee",
                 "shasum": ""
             },
             "require": {
-                "illuminate/collections": "^11.0",
+                "illuminate/collections": "^11.0 || ^12.0",
                 "illuminate/console": "^11.0 || ^12.0",
                 "illuminate/container": "^11.0 || ^12.0",
                 "illuminate/filesystem": "^11.0 || ^12.0",
@@ -4259,9 +4259,9 @@
             ],
             "support": {
                 "issues": "https://github.com/tighten/jigsaw/issues",
-                "source": "https://github.com/tighten/jigsaw/tree/v1.7.5"
+                "source": "https://github.com/tighten/jigsaw/tree/v1.7.6"
             },
-            "time": "2025-03-07T15:26:37+00:00"
+            "time": "2025-04-30T13:09:27+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
