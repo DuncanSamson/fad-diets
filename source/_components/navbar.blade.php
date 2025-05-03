@@ -21,6 +21,9 @@
             <a href="/scran" class="text-sm font-semibold text-gray-900">What is in your Scran</a>
             <a href="/game" class="text-sm font-semibold text-gray-900">Game</a>
         </div>
+        <div>
+
+        </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         </div>
     </nav>

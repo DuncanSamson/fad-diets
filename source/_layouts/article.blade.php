@@ -19,7 +19,7 @@
         <x-navbar>
 
         </x-navbar>
-        <main class="min-h-96 bg-white text-emerald-950 px-14 py-16">
+        <main class="min-h-96 bg-white text-emerald-950 px-14 pb-16 pt-28">
             @yield('content')
         </main>
 

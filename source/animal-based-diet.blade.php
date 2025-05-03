@@ -3,7 +3,7 @@ title: Animal Based Diet
 description: This diet focuses on eating primarily animal products such as meat, eggs, and dairy, while also including fruit and honey, with extra focus on avoiding seed oils and vegetables particularl those high in Oxalates (A vegetable’s defence chemical).
 image: animal-based-diet.jpg
 ---
-@extends('_layouts.main')
+@extends('_layouts.article')
 @section('content')
     <h1 class="text-7xl font-bold text-center mb-6 pb-3 mb-10 border-b border-b-emerald-200" >Animal Based Diet – The Paul Saladino Plan </h1>
     <h2 class="text-xl pt-8 pb-2 font-bold">Who Invented It?</h3>
