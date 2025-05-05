@@ -2,6 +2,8 @@
 title: Fad Diets
 description: This is all a fad diets and is to teach people how to eat better.
 image: fad-diets-logo-light-green.png
+author: Duncan Samson
+
 ---
 @extends('_layouts.main')
 @section('content')

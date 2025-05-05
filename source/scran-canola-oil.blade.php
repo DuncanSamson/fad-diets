@@ -2,6 +2,7 @@
 title: Canola Oil
 description: Oil that is extracted from genetically modified rapeseeds from the rapeseed plant.
 image: big-mac.jpg
+author: Duncan Samson
 ---
 @extends('_layouts.article')
 @section('content')

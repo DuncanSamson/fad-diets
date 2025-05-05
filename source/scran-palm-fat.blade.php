@@ -2,6 +2,7 @@
 title: Palm Fat
 description: Fat extracted from the fruit of the oil palm tree, used widely in processed foods and cosmetics.
 image: mars-bar.jpg
+author: Duncan Samson
 ---
 @extends('_layouts.article')
 @section('content')
