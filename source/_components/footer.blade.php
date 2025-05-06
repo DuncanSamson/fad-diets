@@ -20,8 +20,7 @@
                 <a href="{{ url('/license') }}">License</a>
             </li>
             <li>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDwoyDj_alHoZDE6RZDURbAXVJa9jE3cihBnmrKJ38pY0kEw/viewform">Contact
-                    Us</a>
+                <a href="https://forms.gle/tUwEe9BafjqiKQe9A">Contact Us</a>
             </li>
         </ul>
     </div>
