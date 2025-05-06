@@ -7,7 +7,24 @@
             </div>
         </div>
     </div>
+    <div class="pb-4 text-lg flex flex-col items-end">
+        <ul class="text-right">
+            <h3 class="font-bold pb-4">Legal</h3>
+            <li>
+                <a href="{{ url('/terms-of-service') }}">Terms of Service</a>
+            </li>
+            <li>
+                <a href="{{ url('/privacy-policy') }}">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="{{ url('/license') }}">License</a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDwoyDj_alHoZDE6RZDURbAXVJa9jE3cihBnmrKJ38pY0kEw/viewform">Contact
+                    Us</a>
+            </li>
+        </ul>
+    </div>
     <div class="w-full border-t border-emerald-500 my-8"></div>
     <div class="text-center">© 2025 Fad Diets - All rights reserved.</div>
-    <!---->
 </div>
