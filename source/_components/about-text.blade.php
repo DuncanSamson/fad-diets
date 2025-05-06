@@ -1,1 +1,1 @@
-<section class="text-left flex flex-col gap-4">{{$slot}}</section>
+<section class="text-left flex flex-col gap-4 pt-16 ">{{$slot}}</section>

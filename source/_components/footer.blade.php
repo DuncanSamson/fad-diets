@@ -24,13 +24,6 @@
             </li>
         </ul>
     </div>
-    <div class="text-right">
-        <ul>
-            <li>
-                <a href="https://docs.google.com/forms/d/1MvdBP5l2iseRuXza8D8UKp4w-bB22gaNzlRXITJSBiY/viewform?pli=1&pli=1&edit_requested=true">Contact Us</a>
-            </li>
-        </ul>
-    </div>
     <div class="w-full border-t border-emerald-500 my-8"></div>
     <div class="text-center">© 2025 Fad Diets - All rights reserved.</div>
 </div>

@@ -8,7 +8,9 @@ author: Duncan Samson
 @section('content')
 
     <h1 class="text-7xl font-bold text-center mb-6 pb-3 mb-10 border-b border-b-emerald-200">About Us</h1>
-
+    <div class="flex justify-center pb-8 pt-8">
+        <img src="/assets/images/group.jpeg" alt="Group Picture" class= "h-1/6 w-auto object-contain">
+    </div>
     <x-about-text>
         <p>Since childhood nutrition has been an issue to overcome, from being banned from consuming products with E
             numbers as they caused behavioural issues, to adulthood, suffering from insomnia, anxiety, depression,
