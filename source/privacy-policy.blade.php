@@ -6,8 +6,8 @@ author: Duncan Samson
 ---
 @extends('_layouts.article')
 @section('content')
-    <div class="pt-16 text-center">
-        <h1 class="text-7xl font-bold text-center mb-6 pb-3 mb-10 ">Privacy Policy</h1>
+    <div class="pt-16">
+        <h1 class="text-7xl font-bold mb-6 pb-3 mb-10 ">Privacy Policy</h1>
         <p class="border-b border-b-emerald-200 pb-8">Last updated: May 6, 2025</p>
 
         <h2 class="font-bold pt-8">1. Purpose</h2>

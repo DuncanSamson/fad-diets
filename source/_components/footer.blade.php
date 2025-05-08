@@ -20,7 +20,7 @@
                 <a href="{{ url('/license') }}">License</a>
             </li>
             <li>
-                <a href="https://forms.gle/tUwEe9BafjqiKQe9A">Contact Us</a>
+                <a href="https://forms.gle/tUwEe9BafjqiKQe9A" target="_blank">Contact Us</a>
             </li>
         </ul>
     </div>

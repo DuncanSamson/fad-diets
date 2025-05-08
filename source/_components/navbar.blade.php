@@ -14,12 +14,12 @@
                 </svg>
             </button>
         </div>
-        <div class="hidden lg:flex lg:gap-x-12">
-            <a href="/" class="text-sm font-semibold text-gray-900">Home</a>
-            <a href="/about" class="text-sm font-semibold text-gray-900">About</a>
-            <a href="/fad-diet" class="text-sm font-semibold text-gray-900">Fad Diets</a>
-            <a href="/scran" class="text-sm font-semibold text-gray-900">What is in your Scran</a>
-            <a href="/game" class="text-sm font-semibold text-gray-900">Game</a>
+        <div class="hidden  lg:flex lg:gap-x-12">
+            <a href="/" class="text-sm font-semibold text-gray-900 hover:text-emerald-600">Home</a>
+            <a href="/about" class="text-sm font-semibold text-gray-900 hover:text-emerald-600">About</a>
+            <a href="/fad-diet" class="text-sm font-semibold text-gray-900 hover:text-emerald-600">Fad Diets</a>
+            <a href="/scran" class="text-sm font-semibold text-gray-900 hover:text-emerald-600">What is in your Scran</a>
+            <a href="/game" class="text-sm font-semibold text-gray-900 hover:text-emerald-600">Game</a>
         </div>
         <div>
 
@@ -47,11 +47,11 @@
             <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/10">
                     <div class="space-y-2 py-6 text-center">
-                        <a href="/" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Home</a>
-                        <a href="/about" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">About</a>
-                        <a href="/fad-diet" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Fad Diets</a>
-                        <a href="/scran" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">What is in your Scran</a>
-                        <a href="/game" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Game</a>
+                        <a href="/" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:text-emerald-600">Home</a>
+                        <a href="/about" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:text-emerald-600">About</a>
+                        <a href="/fad-diet" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:text-emerald-600">Fad Diets</a>
+                        <a href="/scran" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:text-emerald-600">What is in your Scran</a>
+                        <a href="/game" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:text-emerald-600">Game</a>
                     </div>
                 </div>
             </div>

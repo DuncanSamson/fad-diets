@@ -6,7 +6,7 @@ author: Duncan Samson
 ---
 @extends('_layouts.article')
 @section('content')
-    <h1 class="text-7xl font-bold text-center mb-6 pb-3 mb-10 border-b border-b-emerald-200">Sunset Yellow</h1>
+    <h1 class="text-7xl font-bold mb-6 pb-3 mb-10 border-b border-b-emerald-200">Sunset Yellow</h1>
     <h2 class="text-xl pt-8 pb-2 font-bold">How Is It Made?</h2>
     <p class="text-lg"> It's created in a lab using chemicals from petrol.
         Aromatic hydrocarbons are extracted from the petrol as starting materials for colour production.
