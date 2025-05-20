@@ -6,7 +6,7 @@ author: Duncan Samson
 ---
 @extends('_layouts.article')
 @section('content')
-    <h1 class="text-7xl font-bold mb-6 pb-3 mb-10 border-b border-b-emerald-200">Sunset Yellow</h1>
+    <h1 class="text-7xl font-bold text-center mb-6 pb-3 mb-10 border-b border-b-emerald-200">Sunset Yellow</h1>
     <h2 class="text-xl pt-8 pb-2 font-bold">How Is It Made?</h2>
     <p class="text-lg"> It's created in a lab using chemicals from petrol.
         Aromatic hydrocarbons are extracted from the petrol as starting materials for colour production.
@@ -16,11 +16,11 @@ author: Duncan Samson
         It then changes into a thick liquid ready to be dried.
         Finally, it's dried into a powder or granules.
         Packaged and ready to be added to many of our foods.</p>
-    <h2 class="text-xl pt-8 pb-2 font-bold">What Effects Could It Have On YOur Brain?</h2>
+    <h2 class="text-xl pt-8 pb-2 font-bold">What Effects Could It Have On Your Brain?</h2>
     <p class="text-lg">Some studies suggest that E110, especially when combined with certain preservatives, may increase hyperactivity
         in children. This includes difficulty concentrating and increased restlessness.
-        WHAT EFFECTS COULD IT HAVE ON YOUR BODY?
-        E110 can cause allergic reactions in some people, particularly those sensitive to aspirin. It can cause skin
+        <h2 class="text-xl pt-8 pb-2 font-bold">What Effects Could It Have On Your Body?</h2>
+       <p class="text-lg">E110 can cause allergic reactions in some people, particularly those sensitive to aspirin. It can cause skin
         rashes, a sore stomach, or difficulty breathing. </p>
     <h2 class="text-xl pt-8 pb-2 font-bold">Fun Facts</h2>
     <p class="text-lg">In the EU, products containing E110 must carry a warning label: "May have an adverse effect on activity and

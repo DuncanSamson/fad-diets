@@ -19,8 +19,8 @@ author: Duncan Samson
     <h2 class="text-xl pt-8 pb-2 font-bold">What Affects Could It Have On Your Brain?</h2>
     <p class="text-lg">Research on high-saturated fat diets indicates that diets rich in palm fat may alter brain function, potentially
         affecting memory and learning.
-        <h2>What Affects Could It Have On Your Body?</h2>
-        Some studies suggest that a high intake of palm fat can contribute to weight gain and may increase cholesterol
+        <h2 class="text-xl pt-8 pb-2 font-bold">What Affects Could It Have On Your Body?</h2>
+        <p class="text-lg" >Some studies suggest that a high intake of palm fat can contribute to weight gain and may increase cholesterol
         levels, posing a risk to heart health over time.</p>
     <h2 class="text-xl pt-8 pb-2 font-bold">Fun Facts</h2>
     <p class="text-lg">Palm fat is a key ingredient in many processed foods like biscuits and spreads.
