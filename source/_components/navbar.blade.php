@@ -48,7 +48,6 @@
                 <div class="-my-6 divide-y divide-gray-500/10">
                     <div class="space-y-2 py-6 text-center">
                         <a href="/" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:text-emerald-600">Home</a>
-                        <a href="/about" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:text-emerald-600">About</a>
                         <a href="/fad-diet" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:text-emerald-600">Fad Diets</a>
                         <a href="/scran" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:text-emerald-600">What is in your Scran</a>
                         <a href="/game" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:text-emerald-600">Game</a>
