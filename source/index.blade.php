@@ -15,7 +15,7 @@ author: Duncan Samson
                   I am the lead Game developer behind our game's functionality, bringing its mechanics to life,
                   and the artistic genius responsible for the sprite artwork that gives it its unique visual charm."></x-member>
 
-        <x-member fullname="" image="/assets/images/clown.jpg" jobtitle="Class Clown"
+        <x-member fullname="" image="/assets/images/clown.jpg" jobtitle=""
                   individualBlurb=""></x-member>
 
         <x-member fullname="Duncan Samson" image="/assets/images/100_0039.JPG" jobtitle="Web Developer"
