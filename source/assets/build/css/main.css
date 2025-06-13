@@ -837,6 +837,10 @@ video {
 .p-6 {
   padding: 1.5rem;
 }
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;

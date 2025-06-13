@@ -16,7 +16,6 @@
         </div>
         <div class="hidden  lg:flex lg:gap-x-12">
             <a href="/" class="text-sm font-semibold text-gray-900 hover:text-emerald-600">Home</a>
-            <a href="/about" class="text-sm font-semibold text-gray-900 hover:text-emerald-600">About</a>
             <a href="/fad-diet" class="text-sm font-semibold text-gray-900 hover:text-emerald-600">Fad Diets</a>
             <a href="/scran" class="text-sm font-semibold text-gray-900 hover:text-emerald-600">What is in your Scran</a>
             <a href="/game" class="text-sm font-semibold text-gray-900 hover:text-emerald-600">Game</a>
